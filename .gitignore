@@ -1,0 +1,57 @@
+# Rider / IntelliJ
+.idea/
+*.sln.DotSettings.user
+
+# Build
+bin/
+obj/
+
+# OS
+.DS_Store
+
+# User secrets / configs
+appsettings.Development.json
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Visual Studio / .NET build artifacts
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esults/
+*.VisualState.xml
+*.user
+*.suo
+*.cache
+*.pdb
+
+# VS Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# Other tooling
+*.resharper
+_ReSharper*/
+*.dotCover
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+
+# User secrets / configs
+appsettings.Development.json
+secrets.json

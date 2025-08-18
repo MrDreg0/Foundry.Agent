@@ -1,0 +1,6 @@
+@Foundry.Agent.Api_HostAddress = http://localhost:5098
+
+GET {{Foundry.Agent.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
