@@ -1,6 +1,20 @@
-@Foundry.Agent.Api_HostAddress = http://localhost:5098
+@HostAddress = http://localhost:5098
 
-GET {{Foundry.Agent.Api_HostAddress}}/weatherforecast/
+### agent request
+POST {{HostAddress}}/agent/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "prompt": "Мне нужно полное имя мужчины с сайта https://randomuser.me/api"
+}
+
+
+### get version
+GET {{HostAddress}}/version
 Accept: application/json
 
-###
+
+### get test
+GET {{HostAddress}}/test
+Accept: application/json

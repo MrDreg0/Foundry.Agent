@@ -4,6 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Version>0.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Foundry.Agent.Application\Foundry.Agent.Application.csproj" />
+    <ProjectReference Include="..\Foundry.Agent.Infrastructure\Foundry.Agent.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
